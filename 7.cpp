@@ -26,5 +26,8 @@ int main()
     else if (p==0){
      cout<<"Number is Not Prime" << endl;
     }
-    system("pause");
+    cout << "Press Enter to exit...";
+    cin.ignore(); // Waits for user input
+    cin.get();
+    return 0;
 }

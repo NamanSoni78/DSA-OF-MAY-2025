@@ -40,7 +40,7 @@ int main()
     }
     
     cout << "Press Enter to exit...";
-    cin.ignore(); // Waits for user input
+    cin.ignore();
     cin.get();
     return 0;
 }
