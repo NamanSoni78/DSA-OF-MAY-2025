@@ -1,16 +1,26 @@
 #include <iostream>
 using namespace std;
-
+#include <string>
+#include <cmath>
 int main()
 {
-    cout<<"Check Weather Number is power of 2 or not...";
+    std::string isPow;
+    cout<<"Check Weather Number is power of 2 or not..."<<endl;
     cout<<"Enter The Number"<<endl;
-    int n;
-    cin>>n;
-    for (i=0 , i<num , i++){
-        
-    }
+    int num = 12;
+    cin>>num;
+    for (int i =0 ; i<=30 ; i++){
+        int ans = pow(2,i);
+        if (ans == num){
+            isPow = "True";
+            break;
+        }
+        else{
+            isPow = "False";
+        }
 
+    }
+    cout<<isPow<<endl;
     
     system("pause");
     return 0;
